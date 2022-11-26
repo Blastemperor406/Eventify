@@ -18,8 +18,8 @@ export default function TabsBar() {
     }
     return (
         <div style={div_style}>
-            <a href="/" style={a_style}>Events</a>
-            <a href="/" style={a_style}>Calender</a>
+            <a href="/events" style={a_style}>Events</a>
+            <a href="/calender" style={a_style}>Calender</a>
         </div>
     );
 }
